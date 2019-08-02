@@ -1,19 +1,100 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>My Resume</title>
+    <title>My Resume</title>
 
-  <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel|Great+Vibes|Open+Sans+Condensed:300|Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
+  <body>
+    <nav>
+      <ul class="links" id="links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
+    </nav>
 
-<body>
-  <h1>My Resume</h1>
-</body>
+    <header>
+      <img
+        src="img/profile.jpg"
+        alt="Picture of me."
+      />
+      <div class="header-container">
+        <h1>Sterling Ford</h1>
+        <h3>IT Support at Madonna University via Dynamic Campus</h3>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="left">
+        <section id="contact">
+          <h3 class="sect-title">Contact</h3>
+          <ul>
+            <li>
+              <img src="img/envelope-solid.svg" height="17px" width="17px" />
+              Email: sterling-ford@hotmail.com
+            </li>
+            <li>
+              <img src="img/phone-solid.svg" height="17px" width="17px" />
+              Phone: 586-329-6172
+          </ul>
+        </section>
+        <section id="skills">
+          <h3 class="sect-title">Languages/Skills</h3>
+          <ul>
+            <li>Chrome Dev Tools</li>
+            <li>LESS</li>
+            <li>GIT/GitHub</li>
+            <li>HTML/CSS</li>
+          </ul>
+        </section>
+        <section id="skills">
+          <img src="img/pic08.png" alt="" />
+        </section>
+      </div>
+      <div class="right">
+        <section id="intro">
+          <h3 class="sect-title">Intro</h3>
+          <p>
+            Hello!!!  My name is Sterling Ford.  I am attending Lambda School for web developemt.  I have my associates in Web Development and Bachelors in IT Security.  I am also working on Masters in IT.  I love computers and working with them and helping people with them!
+          </p>
+        </section>
+        <section id="experience">
+          <h3 class="sect-title">Experience</h3>
+          <div class="exp-title">
+            <h4>Dynamic Campus</h4>
+            <h4>August 2019</h4>
+          </div>
+          <p>
+            IT Services for Madonna University!
+          </p>
+          <div class="exp-title">
+            <h4>Onstar</h4>
+            <h4>December 2017-now</h4>
+          </div>
+          <p>
+            Connection Center Advisor.  Help with technical issues for Onstar customers.
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <footer>
+      Copyright | Designed by Sterling Ford
+    </footer>
+  </body>
 </html>
